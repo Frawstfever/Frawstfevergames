@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.DS_Store
+*.log
+.vercel
+
+# Environment files — NEVER commit
+.env
+.env.local
+.env.*.local
