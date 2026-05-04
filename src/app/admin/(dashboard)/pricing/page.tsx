@@ -44,7 +44,7 @@ export default function PricingSyncPage() {
   const [pcFxAuto, setPcFxAuto] = useState(true);
   const [pcFx, setPcFx] = useState(1.38);
   const [pcFxMeta, setPcFxMeta] = useState<{ rate: number; source: string; asOf: string } | null>(null);
-  const [pcMarkup, setPcMarkup] = useState(0.0);
+  const [pcMarkup, setPcMarkup] = useState(0);
 
   // Load current live FX rate on mount so the preview is accurate
   useEffect(() => {
